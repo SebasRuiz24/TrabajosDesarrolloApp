@@ -1,0 +1,10 @@
+<h1>Clase 2</h1>
+
+<input type="text" [(ngModel)]="texto" placeholder="............">
+<button (click)="agregarTexto()">Presionalo</button>
+<button (click)="eliminarTexto()">Eliminar</button>
+
+<ul>
+  <li *ngFor="let item of lista">{{ item }}</li>
+</ul>
+
